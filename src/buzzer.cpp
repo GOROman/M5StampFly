@@ -30,8 +30,36 @@ void beep(void) {
 }
 
 void start_tone(void) {
-    buzzer_sound(NOTE_D1, 200);
-    buzzer_sound(NOTE_D5, 200);
-    buzzer_sound(NOTE_D3, 200);
-    buzzer_sound(NOTE_D4, 200);
+    // Happy Birthday to you
+    buzzer_sound(NOTE_G4, 200); // ソ
+    buzzer_sound(NOTE_G4, 200); // ソ
+    buzzer_sound(NOTE_A4, 400); // ラ
+    buzzer_sound(NOTE_G4, 400); // ソ
+    buzzer_sound(NOTE_C5, 400); // ド
+    buzzer_sound(NOTE_B4, 800); // シ
+    
+    // Happy Birthday to you
+    buzzer_sound(NOTE_G4, 200); // ソ
+    buzzer_sound(NOTE_G4, 200); // ソ
+    buzzer_sound(NOTE_A4, 400); // ラ
+    buzzer_sound(NOTE_G4, 400); // ソ
+    buzzer_sound(NOTE_D5, 400); // レ
+    buzzer_sound(NOTE_C5, 800); // ド
+    
+    // Happy Birthday dear [name]
+    buzzer_sound(NOTE_G4, 200); // ソ
+    buzzer_sound(NOTE_G4, 200); // ソ
+    buzzer_sound(NOTE_G5, 400); // 高ソ
+    buzzer_sound(NOTE_E5, 400); // ミ
+    buzzer_sound(NOTE_C5, 400); // ド
+    buzzer_sound(NOTE_B4, 400); // シ
+    buzzer_sound(NOTE_A4, 400); // ラ
+    
+    // Happy Birthday to you
+    buzzer_sound(NOTE_F5, 200); // ファ
+    buzzer_sound(NOTE_F5, 200); // ファ
+    buzzer_sound(NOTE_E5, 400); // ミ
+    buzzer_sound(NOTE_C5, 400); // ド
+    buzzer_sound(NOTE_D5, 400); // レ
+    buzzer_sound(NOTE_C5, 800); // ド
 }
